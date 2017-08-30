@@ -10,7 +10,6 @@ import com.asdbridge.model.Resource;
 @Repository("resourceRepository")
 public class ResourceRepositoryDataImpl implements ResourceRepository
 {
-	@Override
 	public List<Resource> findAll()
 	{
 		List<Resource> resources = new ArrayList<>();

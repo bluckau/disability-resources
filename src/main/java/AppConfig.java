@@ -1,6 +1,7 @@
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+//Probably going to use annotations
 @Configuration
 @ComponentScan({ "com.asdbridge" })
 public class AppConfig
